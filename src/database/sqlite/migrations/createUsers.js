@@ -6,7 +6,7 @@ create table if not exists users (
     email varchar, 
     password varchar, 
     avatar varchar null,
-    create_at timestamp default current_timestamp
+    create_at timestamp default current_timestamp,
     updated_at timestamp default current_timestamp
 )
 `;
